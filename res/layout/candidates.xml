@@ -23,7 +23,7 @@
         android:orientation="horizontal"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/candidates_container_bg"
+        android:background="#d7000000"
         >
 
     <ImageButton

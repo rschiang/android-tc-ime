@@ -22,9 +22,9 @@
         android:versionCode="113"
         android:versionName="1.0"
         >
-    <uses-sdk android:minSdkVersion="3"  android:targetSdkVersion="4"/>
+    <uses-sdk android:minSdkVersion="3"  android:targetSdkVersion="17"/>
     <uses-permission android:name="android.permission.VIBRATE"/>
-    <application android:label="@string/ime_name" android:icon="@drawable/icon">
+    <application android:label="@string/ime_name" android:icon="@drawable/icon" android:theme="@style/MainTheme">
 
         <service android:name="ZhuyinIME" android:label="@string/zhuyin_ime_name"
                 android:permission="android.permission.BIND_INPUT_METHOD">
